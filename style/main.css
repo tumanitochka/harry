@@ -111,3 +111,16 @@ main a {
         filter: brightness(1.2);
     }
 }
+
+.hat {
+    background-color: brown;
+    color: aliceblue;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        filter: brightness(1.2);
+        transition: all .1s linear;
+    }
+    &:active {filter: brightness(1);}
+}
