@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url(../style/img/bg.jpeg), #0f141c;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    width: max-content;
+    margin: auto;
+    color: aliceblue;
+}
+
+header {
+    padding: 10px 25px;
+}
