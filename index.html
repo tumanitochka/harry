@@ -3,20 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Создание магических игр с Гарри Поттером</title>
     <link rel="stylesheet" href="./style/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/snow.css">
+    <link rel="shortcut icon" href="./style/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
+        <img src="./style/img/favicon.ico">
         <h1>Создание магических игр с Гарри Поттером</h1>
     </header>
     <main>
-        
+        <a href="#" onclick="onLetter()">Письмо из Хагвартс</a>
+        <a href="./choise.html">Выбор факультета</a>
     </main>
+    <section id="letter">
+        <button onclick="closeLetter()" class="close-letter">✕</button>
+        <img src="./style/img/hogwarts.png" width="120px"><br>
+        <p>Школа чародейства и волшебства «Хогвартс»</p>
+        <p>Директор: Альбус Дамблдор</p>
+        <p>«Кавалер ордена Мерлина I степени, Великий волшебник</p>
+        <p>Визенгамота, Верховный чародей, Президент международной конфедерации магов»</p>
+        <p>Уважаемые студенты Академии ТОР,</p><br>
+        <p style="text-indent: 20px;">Мы рады информировать вас о том, что вы приняты в школу чародейства и волшебства «Хогвартс».</p>
+        <p style="text-indent: 20px;">Вас ждёт множество загадок и испытаний, очень надеемся, что вы проявите себя, как истинные волшебники и успешно пройдёте весь курс обучения. Удачи в испытаниях!</p>
+        <p style="text-indent: 20px;">Обучение начинается __ января. В случае отказа мы ждем вашу сову не позднее 31 декабря.</p><br>
+        <p>Искренне ваша</p>
+        <p>Минерва МакГонагалл</p>
+        <p>Заместитель директора школы</p>
+    </section>
     <footer><h2>Компьютерная Академия ТОП © 2024</h2></footer>
+    <script src="./script.js"></script>
 </body>
 </html>
