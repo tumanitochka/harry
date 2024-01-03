@@ -154,7 +154,7 @@ main a {
     gap: 40px;
 }
 
-#gryffindor {
+#gryffindor, #slytherin {
     transform: scale(0);
     transition: all 1s linear;
 }
