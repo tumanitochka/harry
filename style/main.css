@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     background: url(../style/img/bg.jpeg), #0f141c;
+    background-repeat: no-repeat;
     font-family: 'Caveat', cursive; 
 }
 
@@ -32,6 +33,11 @@ header, footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 main {
