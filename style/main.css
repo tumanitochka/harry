@@ -27,6 +27,11 @@ h1, h2 {
 
 h1 {font-size: 45px;}
 
+audio::-webkit-media-controls-panel {
+    background-color: #d3b38b;
+
+}
+
 header img {animation: mapShow 3s linear infinite;}
 header, footer {
     display: flex;
