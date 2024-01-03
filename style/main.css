@@ -112,6 +112,18 @@ main a {
     }
 }
 
+@keyframes showHat {
+    0% {filter: drop-shadow(0 0 0 white);}
+    50% {filter: drop-shadow(0 0 20px white);}
+    100% {filter: drop-shadow(0 0 0 white);}
+}
+
+.img-hat {
+    position: relative;
+    bottom: 40px;
+    animation: showHat 3s linear infinite;
+}
+
 .hat {
     background-color: brown;
     color: aliceblue;
@@ -123,4 +135,15 @@ main a {
         transition: all .1s linear;
     }
     &:active {filter: brightness(1);}
+}
+
+.faculty {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#gryffindor {
+    transform: scale(0);
+    transition: all 1s linear;
 }
